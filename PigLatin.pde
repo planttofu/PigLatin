@@ -49,7 +49,7 @@ public class PigLatin {
   
     public String pigLatin(String sWord) {
       
-	    if(findFirstVowel(sWord) == -1) {
+      if(findFirstVowel(sWord) == -1) {
 		    return sWord + "ay";
 	    }
       else if(sWord.substring(0,2).equals("qu")) {
